@@ -1,0 +1,16 @@
+header{
+	position: absolute;
+	top: 25%;
+	width:auto;
+	left: 50%;
+	margin-left: -500px;
+}
+.name{
+	width: 900px;
+	height: 210px;
+	background-size: 900px 210px;
+}
+nav{
+	width: auto;
+	margin: 0 auto;
+}

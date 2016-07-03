@@ -1,0 +1,55 @@
+
+body{
+	margin: 0;
+}
+header{
+	height: 180px;
+}
+.nameContainer{
+	float: left;
+	margin-left: 25px;
+}
+.name{
+	margin: 0;
+	width: 420px;
+	height: 180px;
+	background-size: 420px 180px;
+}
+nav{
+	position: relative;
+	top: 50%;
+	margin-left: 600px;
+	width: 750px;
+	white-space: nowrap; 
+}
+nav ul{
+	list-style: none;
+}
+#canvascontainer {
+	height:500px;
+	width:700px;
+	position:absolute;
+	top:0;
+	left:0;
+	text-align:center;
+	z-index: -1;
+}
+canvas{
+	position: relative;
+	top: -50px;
+	left: -150px;
+}
+#content{
+	background: white;
+	width: 100%;
+	height:100%;
+}
+.leftSide{
+	float: left;
+	overflow:auto;
+	width: 60%;
+}
+.rightSide{
+	float: left;
+	width: 40%;
+}
